@@ -11,6 +11,18 @@ Summary: Common interface to the WakaTime api.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/wakatime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/wakatime-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/wakatime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/wakatime-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/wakatime-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/wakatime-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/wakatime/badges/version.svg)](https://anaconda.org/conda-forge/wakatime)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/wakatime/badges/downloads.svg)](https://anaconda.org/conda-forge/wakatime)
+
 Installing wakatime
 ===================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `wakatime` available on your platf
 ```
 conda search wakatime --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/wakatime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/wakatime-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/wakatime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/wakatime-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/wakatime-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/wakatime-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/wakatime/badges/version.svg)](https://anaconda.org/conda-forge/wakatime)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/wakatime/badges/downloads.svg)](https://anaconda.org/conda-forge/wakatime)
 
 
 Updating wakatime-feedstock
