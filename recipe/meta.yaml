@@ -1,6 +1,6 @@
 {% set name = "wakatime" %}
-{% set version = "10.6.1" %}
-{% set sha256 = "f8bd2b86c08843161cd88d72f5c735c94642b7dfa8007bdfc602dabbc69ead15" %}
+{% set version = "10.7.0" %}
+{% set sha256 = "fde7f690a9c90c25447aeadf7214683161c7331d72e362cb5c01a2d4d03fe046" %}
 
 package:
   name: {{ name|lower }}
