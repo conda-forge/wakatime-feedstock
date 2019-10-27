@@ -1,6 +1,6 @@
 {% set name = "wakatime" %}
-{% set version = "13.0.0" %}
-{% set sha256 = "9a96374be807baaea6a5b322eb1cc3b3e35294c5e62066181207b86a2fd46eac" %}
+{% set version = "13.0.1" %}
+{% set sha256 = "e449da625f7ca5d63be555ed3acb84763873c21217678a2a5bde42b0d2dbb771" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - wakatime = wakatime.__init__:execute
 
