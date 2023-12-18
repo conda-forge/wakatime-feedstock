@@ -21,18 +21,15 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
 
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
     - wakatime
-
-  commands:
-    - wakatime --help
 
 about:
   home: https://wakatime.com
