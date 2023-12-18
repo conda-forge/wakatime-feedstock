@@ -31,9 +31,6 @@ test:
   imports:
     - wakatime
 
-  commands:
-    - wakatime --help
-
 about:
   home: https://wakatime.com
   license: BSD-3-Clause
