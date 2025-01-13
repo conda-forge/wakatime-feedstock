@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wakatime-feedst
 
 Home: https://wakatime.com
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Summary: Common interface to the WakaTime api.
 
